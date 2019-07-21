@@ -1,12 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="fouc_bg">
 <head>
 	<title>Dana Delany Web Site</title>
 	<meta charset="utf-8">
 	<meta name="msvalidate.01" content="D454148546554D66052075C45F43488E" />
 	<meta name="viewport" content="width=device-width; initial-scale=1">
+	<style>
+		/* handle github FOUC */
+		.fouc_bg {
+			background-color: rgb(25,30,35);
+		}
+
+		.fouc_hide {
+			opacity: 0;
+			transition: opacity 1s ease-in-out;
+		}
+
+		.fouc_show {
+			opacity: 1;
+		}
+	</style>
 </head>
-<body>
+<body class="fouc_hide">
 	<main>
 		<article>
 			<section id="announcement">

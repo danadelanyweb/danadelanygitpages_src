@@ -11,7 +11,7 @@
 }
 
 body {
-	    background-color: rgb(25,30,35);
+	background-color: rgb(25,30,35);
 	color: #eeeeee;
 	font-family: "Poppins", sans-serif;
 	font-size: 1.1rem;
@@ -19,21 +19,23 @@ body {
 
 a {
 	color: #eeeeee;
+
+	&:hover {
+		color: #ffffff;
+		background: #222222;
+		text-decoration: none;	
+	}
 }
 
-a:hover {
-	color: #ffffff;
-	background: #222222;
-	text-decoration: none;
-}
 
 main {
 	margin: 0 auto;
+
+	p {
+		margin: 0 0 1rem 0;
+	}
 }
 
-main p {
-	margin: 0 0 1rem 0;
-}
 
 #announcement, #twitter {
 	float: left;
@@ -41,9 +43,11 @@ main p {
 	margin-bottom: 1rem;
 }
 
-#announcement address {
-	font-family: "Poppins", sans-serif;
-	margin: 1rem 0;
+#announcement {
+	address {
+		font-family: "Poppins", sans-serif;
+		margin: 1rem 0;
+	}
 }
 
 @media only screen and (min-width: 1000px) {
@@ -62,8 +66,10 @@ main p {
 		margin: 0 auto;
 	}
 	
-	#announcement h1 {
-		font-size: 2.5rem;
+	#announcement {
+		h1 {
+			font-size: 2.5rem;
+		}
 	}
 }
 
@@ -73,8 +79,10 @@ main p {
 		margin: 0 auto;
 	}
 	
-	#announcement h1 {
-		font-size: 2rem;
+	#announcement {
+		h1 {
+			font-size: 2rem;
+		}
 	}
 }
 
@@ -88,6 +96,10 @@ main p {
 	#announcement {
 		width: 96%;
 		margin: 0 2% 1rem 2%;
+
+		h1 {
+			font-size: 2rem;
+		}
 	}
 
 	#twitter {
@@ -98,7 +110,4 @@ main p {
 		float: none;
 	}
 
-	#announcement h1 {
-		font-size: 2rem;
-	}
 }
