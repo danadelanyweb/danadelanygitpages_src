@@ -1,8 +1,104 @@
-$clrbg: #ffffff;
-$clrtext: #444444;
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-size: 100%;
+	line-height: 1.4;
+	font-weight: normal;
+	font-style: normal;
+}
 
 body {
-	background-color: $clrbg;
-	color: $clrtext;
-	font-family: Arial, sans-serif;
+	    background-color: rgb(25,30,35);
+	color: #eeeeee;
+	font-family: "Quicksand";
+	font-size: 1.1rem;
+}
+
+a {
+	color: #eeeeee;
+}
+
+a:hover {
+	color: #ffffff;
+	background: #222222;
+	text-decoration: none;
+}
+
+main {
+	margin: 0 auto;
+}
+
+main p {
+	margin: 0 0 1rem 0;
+}
+
+#announcement, #twitter {
+	float: left;
+	width: 50%;
+	margin-bottom: 1rem;
+}
+
+#announcement address {
+	font-family: "Quicksand";
+	margin: 1rem 0;
+}
+
+@media only screen and (min-width: 1000px) {
+	main {
+		width: 1000px;
+	}
+
+	#announcement h1 {
+		font-size: 3rem;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 999px) {
+	main {
+		width: 768px;
+		margin: 0 auto;
+	}
+	
+	#announcement h1 {
+		font-size: 2.5rem;
+	}
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+	main {
+		width: 576px;
+		margin: 0 auto;
+	}
+	
+	#announcement h1 {
+		font-size: 2rem;
+	}
+}
+
+
+@media only screen and (max-width: 575px) {
+	main {
+		width: 100%;
+		margin: 0;
+	}
+
+	#announcement {
+		width: 96%;
+		margin: 0 2% 1rem 2%;
+	}
+
+	#twitter {
+		width: 100%;
+	}
+
+	#announcement, #twitter {
+		float: none;
+	}
+
+	#announcement h1 {
+		font-size: 2rem;
+	}
 }
