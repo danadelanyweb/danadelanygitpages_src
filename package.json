@@ -1,5 +1,5 @@
 {
-  "name": "danagithubpages",
+  "name": "danadelanygithubpages",
   "version": "1.0.0",
   "description": "webpack project for dana delany github pages",
   "main": "index.js",
@@ -19,12 +19,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rphunt/danagitpages_src.git"
+    "url": "git+https://github.com/danadelanyweb/danadelanygitpages_src.git"
   },
   "bugs": {
-    "url": "https://github.com/rphunt/danagitpages_src/issues"
+    "url": "https://github.com/danadelanyweb/danadelanygitpages_src/issues"
   },
-  "homepage": "https://github.com/rphunt/danagitpages_src#readme",
+  "homepage": "https://github.com/danadelanyweb/danadelanygitpages_src#readme",
   "dependencies": {
     "lodash": "^4.17.15"
   }
