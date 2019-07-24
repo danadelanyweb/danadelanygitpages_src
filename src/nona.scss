@@ -30,6 +30,7 @@ body {
 
 .nona-pic {
 	background-size: cover;
+	background-position: top center;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -65,24 +66,54 @@ body {
 
 /* slide show title colors */
 
-.slidedd .nona-title {
-	 color: #dddddd;
+.slidedd {
+	.nona-title {
+	  color: #dddddd;
+	}
+
+	.nona-pic {
+		background-position: top right;
+	}
 }
 
-.slidecb .nona-title {
-	 color: #bcbe91;
+.slidecb {
+	.nona-title {
+	  color: #bcbe91;
+	}
+
+	.nona-pic {
+		background-position: top center;
+	}
 }
 
-.slidedh .nona-title {
-	 color: #ec2449;
+.slidedh {
+	.nona-title {
+	  color: #ec2449;
+	}
+
+	.nona-pic {
+		background-position: top left;
+	}
 }
 
-.slidebop .nona-title {
-	 color: #ccc3b3;
+.slidebop {
+	.nona-title {
+	  color: #ccc3b3;
+	}
+
+	.nona-pic {
+		background-position: top center;
+	}
 }
 
-.slidecode .nona-title {
-	 color: #fce1b4;
+.slidecode {
+	.nona-title {
+	  color: #fce1b4;
+	}
+
+	.nona-pic {
+		background-position: top center;
+	}
 }
 
 /* slide show images */
@@ -140,3 +171,22 @@ body {
 	}
 }
 
+@media only screen and (min-width: 768px) and (max-width: 999px) {
+	.nona-title {
+		font-size: 5rem;
+		line-height: 7rem;
+	}
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+	.nona-title {
+		font-size: 4rem;
+		line-height: 6rem;
+	}
+}
+
+@media only screen and (max-width: 575px) {
+	.nona-slide-show {
+		display: none;
+	}
+}
