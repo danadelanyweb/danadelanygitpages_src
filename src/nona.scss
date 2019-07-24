@@ -1,0 +1,142 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+}
+
+.nona-slide-show {
+	position: relative;
+	height: 100vh;
+	width: 100vw;
+}
+
+.nona-slide {
+	display: none;
+	opacity: 0;
+	height: 100vh;
+	width: 100vw;
+}
+
+
+.nona-show {
+	display: block;
+	animation: fade 4s linear forwards;
+}
+
+
+.nona-pic {
+	background-size: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100vw;	
+	clip-path: circle(0 at 50% 50%);
+	animation: wiper 2s linear forwards;
+	animation-delay: 1s;
+	overflow: hidden;
+}
+
+
+.nona-title-wrap {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+
+.nona-title {
+	font-weight: normal;
+	font-size: 8rem;
+	line-height: 10rem;
+    color: #ffffff;
+	text-transform: uppercase;
+}
+
+
+/* slide show title colors */
+
+.slidedd .nona-title {
+	 color: #dddddd;
+}
+
+.slidecb .nona-title {
+	 color: #bcbe91;
+}
+
+.slidedh .nona-title {
+	 color: #ec2449;
+}
+
+.slidebop .nona-title {
+	 color: #ccc3b3;
+}
+
+.slidecode .nona-title {
+	 color: #fce1b4;
+}
+
+/* slide show images */
+
+.slidedd {
+	.nona-pic {
+		background-image: url('images/dana-delany.jpg');
+	}
+}
+
+.slidecb {
+	.nona-pic {
+		background-image: url('images/dana-delany-chinabeach.jpg');
+	}
+}
+
+.slidedh {
+	.nona-pic {
+		background-image: url('images/dana-delany-desperatehousewives.jpg');
+	}
+}
+
+.slidebop {
+	.nona-pic {
+		background-image: url('images/dana-delany-bodyofproof.jpg');
+	}
+}
+
+.slidecode {
+	.nona-pic {
+		background-image: url('images/dana-delany-thecode.jpg');
+	}
+}
+
+
+@keyframes wiper {
+	0% {
+	}
+	100% {
+		clip-path: circle(100% at 50% 50%);
+	}
+}
+
+@keyframes fade {
+	0% {
+	}
+	15% {
+		opacity: 1;
+	}
+	85% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+

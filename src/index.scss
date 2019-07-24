@@ -28,19 +28,15 @@ a {
 }
 
 
-main {
-	margin: 0 auto;
+.content {
 
-	p {
-		margin: 0 0 1rem 0;
-	}
 }
-
 
 #announcement, #twitter {
 	float: left;
 	width: 50%;
 	margin-bottom: 1rem;
+	padding: 40px;
 }
 
 #announcement {
@@ -48,6 +44,11 @@ main {
 		font-family: "Poppins", sans-serif;
 		margin: 1rem 0;
 	}
+}
+
+.footer {
+	text-align: center;
+	padding: 40px;
 }
 
 @media only screen and (min-width: 1000px) {
