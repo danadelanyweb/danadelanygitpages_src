@@ -28,5 +28,6 @@
   "homepage": "https://github.com/danadelanyweb/danadelanygitpages_src#readme",
   "dependencies": {
     "lodash": "^4.17.15"
-  }
+  },
+  "keywords": []
 }
