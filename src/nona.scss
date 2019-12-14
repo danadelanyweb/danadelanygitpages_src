@@ -114,31 +114,31 @@
 
 .slidedd {
 	.nona-pic {
-		background-image: url('images/dana-delany.jpg');
+		background-image: url('images/dana-delany-small.jpg');
 	}
 }
 
 .slidecb {
 	.nona-pic {
-		background-image: url('images/dana-delany-chinabeach.jpg');
+		background-image: url('images/dana-delany-chinabeach-small.jpg');
 	}
 }
 
 .slidedh {
 	.nona-pic {
-		background-image: url('images/dana-delany-desperatehousewives.jpg');
+		background-image: url('images/dana-delany-desperatehousewives-small.jpg');
 	}
 }
 
 .slidebop {
 	.nona-pic {
-		background-image: url('images/dana-delany-bodyofproof.jpg');
+		background-image: url('images/dana-delany-bodyofproof-small.jpg');
 	}
 }
 
 .slidecode {
 	.nona-pic {
-		background-image: url('images/dana-delany-thecode.jpg');
+		background-image: url('images/dana-delany-thecode-small.jpg');
 	}
 }
 
@@ -165,14 +165,49 @@
 	}
 }
 
-@media only screen and (min-width: 768px) and (max-width: 999px) {
+@media only screen and (min-width: 769px) {
 	.nona-title {
 		font-size: 5rem;
 		line-height: 7rem;
 	}
+
+
+	/* slide show images */
+
+	.slidedd {
+		.nona-pic {
+			background-image: url('images/dana-delany.jpg');
+		}
+	}
+
+	.slidecb {
+		.nona-pic {
+			background-image: url('images/dana-delany-chinabeach.jpg');
+		}
+	}
+
+	.slidedh {
+		.nona-pic {
+			background-image: url('images/dana-delany-desperatehousewives.jpg');
+		}
+	}
+
+	.slidebop {
+		.nona-pic {
+			background-image: url('images/dana-delany-bodyofproof.jpg');
+		}
+	}
+
+	.slidecode {
+		.nona-pic {
+			background-image: url('images/dana-delany-thecode.jpg');
+		}
+	}
+
+
 }
 
-@media only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 576px) and (max-width: 768px) {
 	.nona-title {
 		font-size: 4rem;
 		line-height: 6rem;

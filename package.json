@@ -9,14 +9,14 @@
   "author": "reg hunt",
   "license": "ISC",
   "devDependencies": {
-    "css-loader": "^3.1.0",
-    "file-loader": "^4.1.0",
+    "css-loader": "^3.3.2",
+    "file-loader": "^4.3.0",
     "html-webpack-plugin": "^3.2.0",
-    "node-sass": "^4.12.0",
-    "sass-loader": "^7.1.0",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^7.3.1",
     "style-loader": "^0.23.1",
-    "webpack": "^4.36.1",
-    "webpack-cli": "^3.3.6"
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
   },
   "repository": {
     "type": "git",
